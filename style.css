@@ -11,6 +11,9 @@
   background-size: cover;
 }
 
+#piz1{ text-decoration: none;
+}
+
 #cont {
   position: fixed;
   margin: 20px;
