@@ -7,14 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodpad</title>
     <link rel="shortcut icon" href="images/3075977.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- CSS only -->
-    <link rel="stylesheet" href="style.css">
+    <link defer href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="carousel.css">
 </head>
-
 <body>
   <!--navbar section-->
-  <div class="section-1" id="bimg">  
+  <div class="background-image">
     <div class="bg-img">
       <div class="min-vw-100">
           <div class="container-fluid">
@@ -22,117 +25,32 @@
                 <div class="container-fluid">
                   <h3><a class="navbar-brand" href="http://127.0.0.1:5500/index.html" id="navbut">FOODPAD</a></h3>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+					<i class="fa-solid fa-bars" style="color: white;"></i>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <b><a class="nav-link" href="index.html" id="navbut">Home</a></b>
-                      </li>
-                      <li class="nav-item">
-                        <b><a class="nav-link" href="index3.html" id="navbut">Featured Meals</a></b>
-                      </li>
-                      <li class="nav-item">
-                        <b><a class="nav-link" href="#" id="navbut">Featured Restaurants</a></b>
-                      </li>
+					</i><b><a class="nav-link" href="index.html" id="navbut"><i class="fa-solid fa-house"></i>  Home</a></b>
+				</li>
+				<li class="nav-item">
+				  <b><a class="nav-link" href="index3.html" id="navbut"><i class="fa-solid fa-bowl-food"></i> Featured Meals</a></b>
+				</li>
+				<li class="nav-item">
+				  <b><a class="nav-link" href="index4.html" id="navbut"><i class="fa-solid fa-utensils"></i> Restaurants</a></b>
                     </ul>
                   </div>
                 </div>
               </nav>
               <!--end of navbar section-->
+
               
               <!--start of card carousel section-->
-              <div id="CAROCONTROLS" class="carousel-slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                <div class="card">
-                    <div class="img-wrapper"><img src="images/pizza2.jpg" class="d-block w-100" alt="image"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">PIZZA's</h3>
-                        <p class="card-text">15% off on all pizza Meals TODAY!</p>
-                        <a href="#" class="btn btn-primary">Check this out !</a>
-                        </div>
-                     </div>
-                  </div>
-                  
-                  <div class="carousel-item">
-                  <div class="carousel-item">
-                    <div class="card">
-                 <div class="img-wrapper"><img src="images/burger1.jpg" class="d-block w-100" alt="image"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">BURGER's</h3>
-                                  <p class="card-text">30 Php off on all Burger Meals Today!</p>
-                                  <a href="#" class="btn btn-primary">Check this out !</a>
-                        </div>
-                     </div>
-                  </div>
-                </div>
+             
+              <!--end of 1st card type carousel-->
 
-                <div class="carousel-item">
-                 <div class="carousel-item">
-                    <div class="card">
-                   <div class="img-wrapper"><img src="images/fries2.jpg" class="d-block w-100" alt="image"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Fries</h3>
-                                  <p class="card-text">Get 1 free drinks for every EXTRA LARGE fries ordered TODAY!</p>
-                                  <a href="#" class="btn btn-primary">Check this out !</a>
-                        </div>
-                     </div>
-                  </div>
-                </div>
-
-                <div class="carousel-item">
-                 <div class="carousel-item">
-                    <div class="card">
-                    <div class="img-wrapper"><img src="images/rice2.jpg" class="d-block w-100" alt="image"></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Rice Meals</h3>
-                                  <p class="card-text">20% Cashback for every Barkada Rice Meal ordered TODAY!</p>
-                                  <a href="#" class="btn btn-primary">Check this out !</a>
-                 </div>
-                </div>
-             </div>
-            </div>
-
-            <div class="carousel-item">
-             <div class="carousel-item">
-                <div class="card">
-                <div class="img-wrapper"><img src="images/friedchicken4.jpg" class="d-block w-100" alt="image"></div>
-                <div class="card-body">
-                    <h3 class="card-title">Fried Chicken</h3>
-                              <p class="card-text">Plus 2 pcs fried chicken for every 8 pcs fried chicken bucket order TODAY!</p>
-                              <a href="#" class="btn btn-primary">Check this out !</a>
-             </div>
-            </div>
-         </div>
-        </div>
-
-        <div class="carousel-item">
-         <div class="carousel-item">
-            <div class="card">
-            <div class="img-wrapper"><img src="images/pancake1.jpg" class="d-block w-100" alt="image"></div>
-            <div class="card-body">
-                <h3 class="card-title">Desserts</h3>
-                          <p class="card-text">Get 1 free exclusive FOODPAD hoodies for purchasing worth 500 Php of deserts</p>
-                          <a href="#" class="btn btn-primary">Check this out !</a>
-          </div>
-         </div>
-        </div>
-      </div>
-    </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#CAROCONTROLS" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#CAROCONTROLS" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
               
-              <!--end of card type carousel-->
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="JS file/index.js"></script> 
+              <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+                <script src="JS file/index.js"></script> 
           </body>
 </html>

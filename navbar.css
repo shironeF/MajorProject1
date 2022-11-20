@@ -1,0 +1,28 @@
+           /*navbar menu section*/
+           #navbut {
+            font-size: 1em;
+          }
+
+           .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+          }
+         
+          #navbut:link {
+            color: wheat;
+            background-color: transparent;
+          }
+          
+          #navbut:visited {
+            color: rgb(217, 255, 0);
+            background-color: transparent;
+            text-decoration: none;
+         }
+         
+          #navbut:hover{
+            text-decoration: underline;
+          }
+        
+            /*end navbar menu section*/
