@@ -1,28 +1,111 @@
-           /*navbar menu section*/
-           #navbut {
-            font-size: 1em;
-          }
+/*navbar menu section*/
 
-           .navbar{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-sizing: border-box;
-          }
+.container { padding-inline: 15px; }
+
+.h1 { font-size: var(--fs-2); }
+
+  .container {
+    max-width: 550px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+
+  .hero .shape {
+    display: block;
+    position: absolute;
+    box-shadow: var(--shadow-2);
+    border-radius: var(--radius-20);
+  }
+
+  .hero .container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .container { max-width: 1140px; } 
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navbut {
+font-size: 1.3em;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+font-size: 1.2em;
+ }
          
-          #navbut:link {
-            color: wheat;
-            background-color: transparent;
-          }
+#navbut:link {
+color: wheat;
+background-color: transparent;
+}
           
-          #navbut:visited {
-            color: rgb(217, 255, 0);
-            background-color: transparent;
-            text-decoration: none;
-         }
+#navbut:visited {
+color: whitesmoke;
+background-color: transparent;
+text-decoration: none; 
+}
          
-          #navbut:hover{
-            text-decoration: underline;
-          }
-        
-            /*end navbar menu section*/
+#navbut:hover{
+text-decoration: underline;
+}
+
+          
+#aimg{
+background-color: rgb(65, 59, 59);
+position: absolute;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+         
+#dimg{
+background-color: rgb(65, 59, 59);
+position: absolute;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+#zoom {
+  transition: transform .2s;
+}
+
+#zoom:hover {
+  transform: scale(1.3);
+}
+          
+
+/*end navbar menu section*/

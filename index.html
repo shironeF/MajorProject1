@@ -7,78 +7,315 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodpad</title>
     <link rel="shortcut icon" href="images/3075977.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link defer href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- CSS links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="login.css">
   </head>
 <body>
-            <!--navbar section-->
-            <div class="background-image">
-              <div class="bg-img">     
-                <div class="min-vw-100">
-              <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg">
-                      <h3><a class="navbar-brand" href="http://127.0.0.1:5500/index.html" id="navbut">FOODPAD</a></h3>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa-solid fa-bars" style="color: white;"></i>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                          <li class="nav-item"> 
-                            </i><b><a class="nav-link" href="index.html" id="navbut"><i class="fa-solid fa-house"></i>  Home</a></b>
-                          </li>
-                          <li class="nav-item">
-                            <b><a class="nav-link" href="index3.html" id="navbut"><i class="fa-solid fa-bowl-food"></i> Featured Meals</a></b>
-                          </li>
-                          <li class="nav-item">
-                            <b><a class="nav-link" href="index4.html" id="navbut"><i class="fa-solid fa-utensils"></i> Restaurants</a></b>
-                          </li>
-                        </ul>
-                      </div>
-                    </div> 
-                  </nav>
-              <!--end of navbar section-->
+<!--navbar section-->  
+<div class="section" id="aimg">
+  <div class="min-vw-100">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <h3><a class="navbar-brand" href="http://127.0.0.1:5500/index.html" id="navbut" style="margin: 5%;">FOODPAD</a></h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color: white;"></i>
+            </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item"> 
+                        </i><b><a class="nav-link" href="index.html" id="navbut"><i class="fa-solid fa-house"></i> Home</a></b>
+                      </li>
+                        <li class="nav-item">
+                          <b><a class="nav-link" href="index3.html" id="navbut"><i class="fa-solid fa-bowl-food"></i> Featured Meals</a></b>
+                      </li>
+                        <li class="nav-item">
+                          <b><a class="nav-link" href="index5.html" id="navbut"><i class="fa-solid fa-utensils"></i> Restaurants</a></b>
+                      </li>
+                    </ul>
+                        <button class="btn btn-warning btn-block btn-lg gradient-custom-4 text-body" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="btns">Login</button>
+                        <a href="index4.html" class="btn btn-warning btn-block btn-lg gradient-custom-4 text-body">Order Now</a> 
+                 </div>
+                </nav>  
+               </div>
+              </div>               
+<!--end of navbar section-->
 
-        <!--login button/user info-->  
-        <button class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="btn1">Login</button>
-        <div id="id01" class="modal">
-          <div class="container">
-          <form class="modal-content animate" action="/action_page.php" method="post">
-            <div class="imgcontainer">
-              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+<!--1st article section-->
+
+<section class="section hero">
+  <div class="container">
+    <div class="hero-content" data-reveal="right">
+     <h1 class="h1 hero-title" style="color: white;">Be Part Of Our Growing Community! Join Us NoW!</h1>
+     <h2 class="hero-text" style="color: white;">
+      Avail Our Exclusive Promos By Becoming A member!
+      </h2>
+      <a href="index2.html" class="btn btn-warning has-after" id="hs1">Register Now</a>
+    </div>
+      <figure class="hero-banner" data-reveal>
+        <img src="images/hm2.jpg" width="500" height="700" alt="hero banner" class="w-100">            
+      </figure>
+  </div>
+</section>
+
+<section class="section hero ">
+      <div class="container">
+        <div class="hero-content" data-reveal="left">
+          <h1 class="h1 hero-title" style="color: white;">The #1 Food Delivery Service In Your Town</h1>
+          <h2 class="hero-text" style="color: white;">
+            2022 people's choice award
+          </h2>
+          <a href="index4.html" class="btn btn-warning has-after">Order Now</a>
+        </div>
+        <figure class="hero-banner" data-reveal>
+          <img src="images/hm1.jpg" width="500" height="700" alt="hero banner" class="w-100">
+          </figure>
+      </div>
+    </section>
+
+    <section class="section hero">
+      <div class="container">
+        <div class="hero-content" data-reveal="left">
+          <h1 class="h1 hero-title" style="color: white;">Want To Partner With Us?</h1>
+          <h2 class="hero-text" style="color: white;"> Grow Your Business With Us
+          </h2>
+          <a href="index4.html" class="btn btn-warning has-after">Contact Us Now</a>
+        </div>
+        <figure class="hero-banner" data-reveal>
+          <img src="images/hm3.jpg" width="500" height="700" alt="hero banner" class="w-100">
+          </figure>
+      </div>
+    </section>
+
+    
+    <section class="section hero">
+      <div class="container">
+        <div class="hero-content" data-reveal="left">
+          <h1 class="h1 hero-title" style="color: white;">We Are Hiring!</h1>
+          <h2 class="hero-text" style="color: white;">Start Your Journey With Us Today!
+          </h2>
+          <a href="index5.html" class="btn btn-warning has-after">Careers</a>
+        </div>
+        <figure class="hero-banner" data-reveal>
+          <img src="images/hm5.jpg" width="500" height="700" alt="hero banner" class="w-100">
+          </figure>
+      </div>
+    </section>
+<!--end of 1st article section-->
+
+ <!--how to order-->
+<section class>
+ <div class="section" id="eimg" data-reveal="top">
+  <div class="min-vw-100">
+    <section class="section instruction" aria-labelledby="">
+      <div class="container">
+      <h1 class="h1 section-title" id="instruction-label" data-reveal>How To Order</h1>
+      <img src="images/ins1.png" width="300" height="154" loading="lazy">   
+         <h5 class="section-text" data-reveal>
+             Open Foodpad website or Foodpad app in your device and mark your shipping address
+          </h5>    
+
+      <img src="images/ins2.png" width="300" height="154" loading="lazy">   
+          <h5 class="section-text" data-reveal>
+          select from variety of restaurant around you and select from the Menu
+          </h5>     
+
+      <img src="images/ins3.png" width="300" height="154" loading="lazy">   
+         <h5 class="section-text" data-reveal>
+             place your order and wait for the delivery.
+          </h5>     
+
+      <img src="images/ins4.jpg" width="300" height="154" loading="lazy">               
+          <h5 class="section-text" data-reveal> 
+              We love to deliver your Meal.
+          </h5>     
+      </div>
+    </section>
+  <!--end of how to order-->
+
+
+ <!--top 3 resto sect-->
+ <section>
+ <div class="section" id="dimg">
+  <div class="min-vw-100">
+ <section class="section top-restaurant" aria-labelledby="restaurant">
+  <div class="container">
+
+   
+      <div class="container">
+        <ul>
+      <li class="grid-center" data-reveal="left">
+        <h1 class="h1 section-title" id="restaurant">
+          Check Out The Top 4 Most Picked Restaurants in Your City for This Month!
+        </h1>
+        <h2 class="section-text" id="restaurant">
+          Here are the top 4 restaurants around your place for the month of November!
+        </h1>
+      </li>
+      </ul>
+    </div>
+      <ul class="grid-list">
+      <li data-reveal="right" id="zoom">
+        <div class="restaurant">
+          <div class="card-icon">
+            <img src="images/top1.png" width="100" height="100" loading="lazy"
+              alt="KFC (Kentucky Fried Chicken)" class="w-50">
+          </div>
+          <h2>KFC (Kentucky Fried Chicken)</h2>
+          <p>
+            is an American fast food restaurant chain headquartered in Louisville, Kentucky,
+            that specializes in fried chicken. It is the world's second-largest restaurant chain 
+            (as measured by sales) after McDonald's, with 22,621 locations globally in 150 countries 
+            as of December 2019.
+          </p>
+          <div class="rating">
+            <ion-icon name="star" aria-hidden="true"></ion-icon>
+            <ion-icon name="star" aria-hidden="true"></ion-icon>
+            <ion-icon name="star" aria-hidden="true"></ion-icon>
+            <ion-icon name="star" aria-hidden="true"></ion-icon>
+            <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+          </div>
+         </div>
+         </li>
+
+
+         <li data-reveal="right" id="zoom">
+          <div class="restaurant">
+            <div class="card-icon">
+              <img src="images/top4.jpg" width="100" height="100" loading="lazy"
+                alt="Max's" class="w-50">
             </div>
-            <div class="container">
-                 <h2>Welcome!</h2 > <br>
-                     <h4> <a href="index2.html" style="color: red;" id="signup">Sign up</a> or log in to continue</h4>
+            <h2>Kuya J</h2>
+            <p>
+              Kuya J is comprised of favorite Filipino food that has affordable prices, great taste,
+              and excellent service. They cater to families and groups, offering them a casual dining experience.
+              “Our type of cuisine is Filipino, essentially what your mother would cook because she loves you.” Restaurant.
+              Product type. Restaurant chain.
+            </p>
+            <div class="rating">
+              <ion-icon name="star" aria-hidden="true"></ion-icon>
+              <ion-icon name="star" aria-hidden="true"></ion-icon>
+              <ion-icon name="star" aria-hidden="true"></ion-icon>
+              <ion-icon name="star" aria-hidden="true"></ion-icon>
+              <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+            </div>
+          </div>
+        </li>
+
+           <li data-reveal="right" id="zoom">
+            <div class="restaurant">
+              <div class="card-icon">
+                <img src="images/top3.jpg" width="100" height="100" loading="lazy"
+                  alt="Max's" class="w-50">
+              </div>
+              <h2>Max's</h2>
+              <p>
+                Max's Restaurant, sometimes known as Max's of Manila or simply Max's,
+                is a Philippine-based multinational restaurant chain which serves fried chicken
+                and other Filipino dishes. It is owned and operated by the Max's Group.
+                Max's Restaurant. Product type. Restaurant chain.
+              </p>
+              <div class="rating">
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+              </div>
+            </div>
+          </li>
+
+          <li data-reveal="left" id="zoom">
+            <div class="restaurant">
+              <div class="card-icon">
+                <img src="images/top2.jpg" width="100" height="100" loading="lazy"
+                  alt="McDonald's " class="w-50">
+              </div>
+              <h2>McDonald's </h2>
+              <p>
+                McDonald's is the world's leading food service organization. We generate more than 
+                $40 billion in Systemwide sales. We operate over 30,000 restaurants in more than 100 countries
+                on six continents. We have the benefits that come with scale and a strong financial position.
+              </p>
+              <div class="rating">
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star" aria-hidden="true"></ion-icon>
+                <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+              </div>
+             </div>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+          
+<!--end top 3 resto sect-->
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--login button/user info-->
+  <div id="id01" class="modal">
+    <div class="container-fluid">
+      <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+              <div class="container">
+                <h2>Welcome!</h2 > <br>
+                  <h4> <a href="index2.html" style="color: red;" id="signup">Sign up</a> or log in to continue</h4>
               <label for="uname"><b>Username</b></label>
               <input type="text" placeholder="Enter Username" name="uname" required>
         <br>
               <label for="psw"><b>Password</b></label>
               <input type="password" placeholder="Enter Password" name="psw" required>
         <br>        
-              <button class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" type="submit" id="btn2">Login</button>
+              <button class="btn btn-warning btn-block btn-lg gradient-custom-4 text-body" type="submit"  >Login</button>
               <label>
         <br> 
                 <input type="checkbox" checked="checked" name="remember"> Remember me
               </label>
             </div>
-            <div class="container" style="background-color:#f1f1f1">
+          <div class="container" style="background-color:#f1f1f1">
               <span class="psw">Forgot <a   href="#" style="color: red">password?</a></span>
-            </div>
-          </form>
         </div>
-      </div>
-      </div>
+      </form>
     </div>
   </div>
-  <!--end of center content section-->
 
-  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="JS file/index.js"></script>
-  </header>
-    </body>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="JS file/index.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
 </html>

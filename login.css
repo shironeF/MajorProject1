@@ -10,7 +10,8 @@
    border: 1px solid #ccc;
    box-sizing: border-box;
  }
- 
+
+
 
  #btn1 {
    background-color: #04AA6D;
@@ -23,16 +24,7 @@
    float: right;
  }
 
- #btn2 {
-     background-color: #04AA6D;
-     color: white;
-     padding: 14px 20px;
-     margin: 8px 0;
-     border: none;
-     cursor: pointer;
-     width: auto;
-     float: center;
-   }
+
 
  #backbut {
    text-decoration: underline;
@@ -119,4 +111,8 @@
       width: 100%;
    }
  
+
+#btns {
+  margin-right: .5%;
+}
  /*end login form section*/
