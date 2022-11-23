@@ -47,42 +47,19 @@
 
 
 <!--map part-->
-
 <div class="container">
 <b><h1 style="color: white;">Mark your location to find Restaurants around you</h1></b>
 <div class="row">
-<form>
-<b><h2><label for="address" style="color: white;">Shipping Address:</label></h2></b>
-<input type="text" id="address" name="address"><br><br>
+<form action="/action_page.php">
+<input type="text" id="address" name="address" placeholder="Type Your Shipping Address Here...">
 <div id="map">
-<iframe src="https://www.google.com.qa/maps/d/u/0/embed?mid=1o9F9lyvLL8nI4Sr1yBLJrRN-yFgWWcs&ehbc=2E312F" width="640" height="480"></iframe> <br>
-<a href="index4.html" class="btn btn-warning btn-block btn-lg gradient-custom-4 text-body" id="address">Submit</a> 
+<iframe src="https://www.google.com.qa/maps/d/u/0/embed?mid=1o9F9lyvLL8nI4Sr1yBLJrRN-yFgWWcs&ehbc=2E312F" width="640" height="480"></iframe><br>
+ <input type="button" class="btn btn-warning btn-block btn-lg gradient-custom-4 text-body" onClick="location.href='index4.html'"value='Submit'>
 </form>
 </div>
 </div>
 </div>
-
-
-
 <!--end of map part-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!--footer part-->
 <footer class="bg-dark text-white pt-5 pb-4">
@@ -120,7 +97,6 @@
   </div>
       </div>
     </div>
-
   </footer>
 <!--end of footer part-->
 
@@ -131,5 +107,6 @@
 <script src="JS file/index.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="JS file/index.js"></script>
 </body>
 </html>
