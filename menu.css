@@ -1,360 +1,463 @@
 /*main css*/
-  #cimg{
-    background-image: url(images/bg5.jpg);
-    position: absolute;
-    background-size: cover;
-  }
+*{
+  margin: 0;
+  padding: 0;
+}
 
-    :root {
-      --ff-poppins: "Poppins", sans-serif;
-      --fs-2: 3rem;
-      --fs-6: 4.2rem;
-      --transition-1: 0.25s ease;
-      --transition-2: 0.5s ease;
-      --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
-    }
- 
-    [data-reveal] {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: var(--transition-2);
-    }
-    
-    [data-reveal="left"] { transform: translateX(-20px); }
-    
-    [data-reveal="right"] { transform: translateX(20px); }
-    
-    [data-reveal].revealed {
-      opacity: 100;
-      transform: translate(0);
-    }
-    
-    @media (min-width: 575px) {
-    
-    :root {
-          --fs-6: 4.2rem;
-      
-        }
-    }
-    
-    @media (min-width: 768px) {
-    
-      
-    .container { max-width: 720px; }
-    
-    .grid-list { grid-template-columns: 1fr 1fr; }
-    }
-      
-    @media (min-width: 992px) {
-    
-    .container { max-width: 960px; }
-    }
-    
-    
-    @media (min-width: 1200px) {
-      :root {
-        --fs-6: 4.8rem;
-      }
-    
-      .container { max-width: 1140px; }
-    
-    }
-  /*end main css*/
-    
-  /*Log in css*/
-   body {font-family: Arial, Helvetica, sans-serif;}
-      
-        
-   input[type=text], input[type=password] {
-     width: 100%;
-     padding: 12px 20px;
-     margin: 8px 0;
-     display: inline-block;
-     border: 1px solid #ccc;
-     box-sizing: border-box;
-   }
-  
-  
-  
-   #btn1 {
-     background-color: #04AA6D;
-     color: white;
-     padding: 14px 20px;
-     margin: 8px 0;
-     border: none;
-     cursor: pointer;
-     width: auto;
-     float: right;
-   }
-  
-  
-  
-   #backbut {
-     text-decoration: underline;
-     color: black;
-   }
-   #backbut:hover {
-     color: blue;
-   }
-   
-   button:hover {
-     opacity: 0.7;
-   }
-   
-   .imgcontainer {
-     text-align: center;
-     margin: 24px 0 12px 0;
-     position: relative;
-   }
-   
-   #signup:hover {
-     text-decoration: underline;
-   }
-   
-   .container {
-     padding: 50px;
-   }
-   
-   span.psw {
-     float: right;
-     padding-top: 20px;
-   }
-   
-   .modal {
-       display: none; 
-       position:fixed; 
-       z-index: 1; 
-       left: 0;
-       top: 0;
-       width: 100%; 
-       height: 100%; 
-       overflow: auto; 
-       background-color: rgb(0,0,0); 
-       background-color: rgba(0,0,0,0.4);
-       padding-top: 60px;
-     }
-   
-   .modal-content {
-     background-color: #fefefe;
-     margin: 5% auto 15% auto;
-     border: 1px solid #888;
-     width: 70vw;
-   }
-   
-   .close {
-     position: absolute;
-     right: 25px;
-     top: 0;
-     color: #000;
-     font-size: 35px;
-     font-weight: bold;
-   }
-   
-   .close:hover,
-   .close:focus {
-     color: #f45236e3;
-     cursor: pointer;
-   }
-   .animate {
-     -webkit-animation: animatezoom 0.6s;
-     animation: animatezoom 0.6s
-   }
-   
-   @-webkit-keyframes animatezoom {
-     from {-webkit-transform: scale(0)} 
-     to {-webkit-transform: scale(1)}
-   }
-     
-   @keyframes animatezoom {
-     from {transform: scale(0)} 
-     to {transform: scale(1)}
-   }
-  
-     .cancelbtn {
-        width: 100%;
-     }
-   
-  
-  #btns {
-    margin-right: .5%;
-  }
-   /*end login css*/
-  
-   /*multicard cc & responsive sect*/
-   body{
-    font-family: arial;
-   }
-   .main{
-    margin: 5%;
-   }
-   
-   .card{
-        background-color: beige;
-        width: 20%;
-        display: inline-block;
-        box-shadow: 2px 2px 20px black;
-        border-radius: 5px; 
-        margin: 2%;
-       }
-   
-   .image img{
-     width: 100%;
-     border-top-right-radius: 5px;
-     border-top-left-radius: 5px;
-     height: 15em !important;
-     object-fit: cover;
-    }
-   
-   .title{
-    
-     text-align: center;
-     padding: 10px;
-     
-    }
-    .title:hover {
-      text-decoration: underline;
-    }
-   
-   h1{
-     font-size: 20px;
-    }
-    
-   
-   .des{
-     padding: 3px;
-     text-align: center;
-     padding-top: 10px;
-     border-bottom-right-radius: 5px;
-     border-bottom-left-radius: 5px;
-   }
-   button{
-     margin-top: 40px;
-     margin-bottom: 10px;
-     background-color: white;
-     border: 1px solid black;
-     border-radius: 5px;
-     padding:10px;
-   }
-   button:hover{
-     background-color: black;
-     color: white;
-     transition: .5s;
-     cursor: pointer;
-   }
-  
-   .item{ height:200px;}
-  
-   .card {
-    transition: transform .2s;
-  }
-  
-  .card:hover {
-    transform: scale(1.2); 
-  }
-  
-  
-  
-  /*responsive section*/
-  
-   @media screen and (max-width: 375px) {
-    .card {
-       background-color: beige;
-       display: contents;
-       background-color: beige;     
-    }
-  
-    .des {
-      display: contents;
-    }
-  
-    #vn {
-      display: none;
-    }
-  
-  .title {
-    background-color: beige;
-  }
-   }
-  
-   
-   @media screen and (max-width: 414px) {
-    .card {
-       background-color: beige;
-       display: contents;
-       background-color: beige; 
-       border-radius: 5px;
-     
-    }
-  
-    .des {
-      display: contents;
-    }
-  
-    #vn {
-      display: none;
-    }
-  
-  .title {
-    background-color: beige;
-  }
-   }
-  
-   @media screen and (max-width: 874px) {
-    .card {
-       background-color: beige;
-       display:flexbox;
-       background-color: beige; 
-       border-radius: 5px;    
-       height: 20em !important; 
-       width: 20em !important;
-    }
-  
-    .des {
-      display: contents;
-    }
-  
-    #vn {
-      display: none;
-    }
-  
-  .title {
-    background-color: beige;
-  }
-   }
-  
-  
-   @media screen and (max-width: 1250px) {
-    .card {
-       background-color: beige;
-       display: contents;
-       background-color: beige; 
-       border-radius: 5px;    
-       height: 20em !important; 
-       width: 20em !important;
-    }
-  
-    .des {
-      display: contents;
-    }
-  
-    #vn {
-      display: none;
-    }
-  
+#cimg{
+  background-image: url(images/bg5.jpg);
+  position: absolute;
+  background-size: cover;
+}
 
-  /*multicard cc & responsive sect*/
-  
+#fimg
+{
+  background-image: url(images/bg3.jpg);
+  position: absolute;
+  background-size: cover;
+}
 
-  
-  
-  #zoom {
-    transition: transform .2s;
-  }
-  
-  #zoom:hover {
-    transform: scale(1.3);
+.restaurant{
+  color: aliceblue;
   }
             
+  #restaurant{
+  color: aliceblue;
+  }
   
-  /*end navbar menu section*/
+  #eimg{
+  background-color: white;
+  }
+  
+  :root {
+    --ff-poppins: "Poppins", sans-serif;
+    --fs-2: 3rem;
+    --fs-6: 4.2rem;
+    --transition-1: 0.25s ease;
+    --transition-2: 0.5s ease;
+    --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
+  }
+  .grid-list {
+    display: grid;
+    gap: 60px;
+  }
+  
+  [data-reveal] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: var(--transition-2);
+  }
+  
+  [data-reveal="left"] { transform: translateX(-20px); }
+  
+  [data-reveal="right"] { transform: translateX(20px); }
+  
+  [data-reveal].revealed {
+    opacity: 100;
+    transform: translate(0);
+  }
+  
+  @media (min-width: 575px) {
+  
+  :root {
+        --fs-6: 4.2rem;
+    
+      }
+  }
+  
+  @media (min-width: 768px) {
+  
+    
+  .container { max-width: 720px; }
+  
+  .grid-list { grid-template-columns: 1fr 1fr; }
+  }
+    
+  @media (min-width: 992px) {
+  
+  .container { max-width: 960px; }
+  }
+  
+  
+  @media (min-width: 1200px) {
+    :root {
+      --fs-6: 4.8rem;
+    }
+  
+    .container { max-width: 1140px; }
+  
+  }
+/*end main css*/
+  
+/*Log in css*/
+ body {font-family: Arial, Helvetica, sans-serif;}
+    
+      
+ input[type=text], input[type=password] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+ }
+
+
+
+ #btn1 {
+   background-color: #04AA6D;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: auto;
+   float: right;
+ }
+
+
+
+ #backbut {
+   text-decoration: underline;
+   color: black;
+ }
+ #backbut:hover {
+   color: blue;
+ }
+ 
+ button:hover {
+   opacity: 0.7;
+ }
+ 
+ .imgcontainer {
+   text-align: center;
+   margin: 24px 0 12px 0;
+   position: relative;
+ }
+ 
+ #signup:hover {
+   text-decoration: underline;
+ }
+ 
+ .container {
+   padding: 50px;
+ }
+ 
+ span.psw {
+   float: right;
+   padding-top: 20px;
+ }
+ 
+ .modal {
+     display: none; 
+     position:fixed; 
+     z-index: 1; 
+     left: 0;
+     top: 0;
+     width: 100%; 
+     height: 100%; 
+     overflow: auto; 
+     background-color: rgb(0,0,0); 
+     background-color: rgba(0,0,0,0.4);
+     padding-top: 60px;
+   }
+ 
+ .modal-content {
+   background-color: #fefefe;
+   margin: 5% auto 15% auto;
+   border: 1px solid #888;
+   width: 70vw;
+ }
+ 
+ .close {
+   position: absolute;
+   right: 25px;
+   top: 0;
+   color: #000;
+   font-size: 35px;
+   font-weight: bold;
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: #f45236e3;
+   cursor: pointer;
+ }
+ .animate {
+   -webkit-animation: animatezoom 0.6s;
+   animation: animatezoom 0.6s
+ }
+ 
+ @-webkit-keyframes animatezoom {
+   from {-webkit-transform: scale(0)} 
+   to {-webkit-transform: scale(1)}
+ }
    
+ @keyframes animatezoom {
+   from {transform: scale(0)} 
+   to {transform: scale(1)}
+ }
+
+   .cancelbtn {
+      width: 100%;
+   }
+ 
+
+#btns {
+  margin-right: .5%;
+}
+ /*end login css*/
+
+ /*multicard cc & responsive sect*/
+ body{
+  font-family: arial;
+ }
+ .main{
+  margin: 5%;
+ }
+ 
+ .card{
+      background-color: beige;
+      width: 20%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin: 2%;
+     }
+ 
+ .image img{
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   height: 15em !important;
+   object-fit: cover;
+  }
+ 
+ .title{
+  
+   text-align: center;
+   padding: 10px;
+   
+  }
+  .title:hover {
+    text-decoration: underline;
+  }
+ 
+ h1{
+   font-size: 20px;
+  }
+  
+ 
+ .des{
+   padding: 3px;
+   text-align: center;
+   padding-top: 10px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
+ button{
+   margin-top: 40px;
+   margin-bottom: 10px;
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding:10px;
+ }
+ button:hover{
+   background-color: black;
+   color: white;
+   transition: .5s;
+   cursor: pointer;
+ }
+
+ .item{ height:200px;}
+
+ .card {
+  transition: transform .2s;
+}
+
+.card:hover {
+  transform: scale(1.2); 
+}
+
+
+
+/*responsive section*/
+
+ @media screen and (max-width: 375px) {
+  .card {
+     background-color: beige;
+     display: contents;
+     background-color: beige;     
+  }
+
+  .des {
+    display: contents;
+  }
+
+  #vn {
+    display: none;
+  }
+
+.title {
+  background-color: beige;
+}
+ }
+
+ 
+ @media screen and (max-width: 414px) {
+  .card {
+     background-color: beige;
+     display: contents;
+     background-color: beige; 
+     border-radius: 5px;
+   
+  }
+
+  .des {
+    display: contents;
+  }
+
+  #vn {
+    display: none;
+  }
+
+.title {
+  background-color: beige;
+}
+ }
+
+ @media screen and (max-width: 874px) {
+  .card {
+     background-color: beige;
+     display:flexbox;
+     background-color: beige; 
+     border-radius: 5px;    
+     height: 20em !important; 
+     width: 20em !important;
+  }
+
+  .des {
+    display: contents;
+  }
+
+  #vn {
+    display: none;
+  }
+
+.title {
+  background-color: beige;
+}
+ }
+
+
+ @media screen and (max-width: 1250px) {
+  .card {
+     background-color: beige;
+     display:flexbox;
+     background-color: beige; 
+     border-radius: 5px;    
+     height: 20em !important; 
+     width: 20em !important;
+  }
+
+  .des {
+    display: contents;
+  }
+
+  #vn {
+    display: none;
+  }
+
+.title {
+  background-color: beige;
+}
+ }
+
+/*multicard cc & responsive sect*/
+
+
+/*navbar menu section*/
+
+.container { padding-inline: 15px; }
+
+.h1 { font-size: var(--fs-2); }
+
+  .container {
+    max-width: 550px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+
+  .hero .shape {
+    display: block;
+    position: absolute;
+    box-shadow: var(--shadow-2);
+    border-radius: var(--radius-20);
+  }
+
+  .hero .container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .container { max-width: 1140px; } 
+
+#navbut {
+font-size: 1.3em;
+}
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+font-size: 1.2em;
+ }
+         
+#navbut:link {
+color: wheat;
+background-color: transparent;
+}
+          
+#navbut:visited {
+color: whitesmoke;
+background-color: transparent;
+text-decoration: none; 
+}
+         
+#navbut:hover{
+text-decoration: underline;
+}
+
+          
+#aimg{
+background-color: rgb(65, 59, 59);
+position: absolute;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+         
+#dimg{
+background-color: rgb(65, 59, 59);
+position: absolute;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+
+#zoom {
+  transition: transform .2s;
+}
+
+#zoom:hover {
+  transform: scale(1.3);
+}
+          
+
+/*end navbar menu section*/
+ 

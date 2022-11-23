@@ -7,7 +7,15 @@
 
 #fimg
 {
-  background-image: url(images/bg3.jpg);
+  background-image: url(images/bg6.jpg);
+  position: absolute;
+  background-size: cover;
+}
+
+
+#gimg
+{
+  background-image: url(images/bg7.jpg);
   position: absolute;
   background-size: cover;
 }

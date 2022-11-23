@@ -60,7 +60,30 @@
   
   
   img { height: auto; }
-  
 
+            
+#aimg{
+  background-color: rgb(65, 59, 59);
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+  
+           
+  #dimg{
+  background-color: rgb(65, 59, 59);
+  }
+  
+  
+  
+  #zoom {
+    transition: transform .2s;
+  }
+  
+  #zoom:hover {
+    transform: scale(1.3);
+  }
+            
+  
  
   
