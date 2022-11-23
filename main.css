@@ -1,8 +1,3 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-
 #cimg{
   background-image: url(images/bg5.jpg);
   position: absolute;
@@ -43,13 +38,13 @@
   
   [data-reveal] {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(150px);
     transition: var(--transition-2);
   }
   
-  [data-reveal="left"] { transform: translateX(-20px); }
+  [data-reveal="left"] { transform: translateX(-100px); }
   
-  [data-reveal="right"] { transform: translateX(20px); }
+  [data-reveal="right"] { transform: translateX(100px); }
   
   [data-reveal].revealed {
     opacity: 100;
