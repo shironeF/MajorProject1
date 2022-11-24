@@ -12,6 +12,13 @@
   background-size: cover;
 }
 
+#himg
+{
+  background-image: url(images/bg3.jpg);
+  position: absolute;
+  background-size: cover;
+}
+
 
 #gimg
 {
