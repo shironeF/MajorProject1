@@ -98,4 +98,22 @@
   
   }
 
-  
+  #o{
+    margin-left: 23em;
+  }
+
+  #y{
+    width: 640px;
+    height: 540px;
+    margin-left: 12em;
+  }
+
+  #t{
+    color: white;
+    margin-left: 2em;
+  }
+
+  #address{
+    width: 50em;
+    margin-left: 12em;
+  }
