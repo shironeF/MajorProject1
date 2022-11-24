@@ -99,21 +99,22 @@
   }
 
   #o{
-    margin-left: 23em;
+    margin-left: 17vw;
   }
 
   #y{
-    width: 640px;
-    height: 540px;
-    margin-left: 12em;
+    width: 40vw;
+    height: 30vw;
+   
   }
 
   #t{
     color: white;
-    margin-left: 2em;
+    text-size-adjust: 15vw;
+    margin-left: 7vw;
   }
 
   #address{
-    width: 40em;
-    margin-left: 12em;
+    width: 36vw;
+    margin-left: 2vw;
   }
